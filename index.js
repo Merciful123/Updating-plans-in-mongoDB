@@ -9,7 +9,7 @@ import cors from "cors";
 
 import UserRoute from "./Routes/UserRoute.js"
 import PlanRoute from "./Routes/PlanRoute.js"
-import { assignPlanToUser } from "./Controllers/CreateUser.js";
+import  AssignPlanRoute  from "./Routes/AssignPlanRoute.js";
 
 
 const app = express()
@@ -50,4 +50,4 @@ app.use("/createplan", PlanRoute)
 // Assigning plan
 
 
-app.use("/assignplan", assignPlanToUser)
+app.use("/assignplan", AssignPlanRoute)

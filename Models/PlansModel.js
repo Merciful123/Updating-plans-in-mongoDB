@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 
+// Creating Plans Schema
+
 const plansSchema = mongoose.Schema(
   {
     plan: {

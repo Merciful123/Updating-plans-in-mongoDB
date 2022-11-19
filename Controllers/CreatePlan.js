@@ -1,5 +1,7 @@
 import PlanModel from "../Models/PlansModel.js"
 
+// Creating Plan
+
 export const createPlan = async (req, res) => {
     const creatingPlan = new PlanModel(req.body)
 
