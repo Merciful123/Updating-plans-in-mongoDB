@@ -1,4 +1,4 @@
-s# Updating-plans-in-mongoDB ( Node Js)
+# Updating-plans-in-mongoDB ( Node Js)
 
 This is a simple app in which there are two (users and plans) MongoDB collections.
 and there are three APIs.
